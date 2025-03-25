@@ -1,0 +1,39 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.10.0",
+  "schemes" : [
+    {
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "vendorID" : "0x1532",
+          "productID" : "0x8a",
+          "productName" : "Razer Viper Mini"
+        }
+      },
+      "scrolling" : {
+        "reverse" : {
+          "vertical" : true
+        },
+        "distance" : {
+          "vertical" : 3
+        },
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "speed" : {
+          "vertical" : 0
+        },
+        "modifiers" : {
+          "vertical" : {
+            "command" : {
+              "type" : "preventDefault"
+            },
+            "shift" : {
+              "type" : "preventDefault"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
